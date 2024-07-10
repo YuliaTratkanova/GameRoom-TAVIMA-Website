@@ -1,0 +1,252 @@
+@media screen and (max-width: 1100px) {
+    .section_2_signature {
+        display: block;
+        margin: 10px 0 0 20px;
+    }
+    .footer__personal-data {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer__data {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer__location,
+    .footer__number {
+        margin-bottom: 15px;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section-1 {
+    background: #4F00A4;
+    padding: 20px 10px;
+}
+
+.section-1__a {
+    color: #FFFFFF;
+}
+
+.section-1__a:hover {
+    color: #F7F7F7;
+    transition: all 0.3s ease-in;
+}
+
+.section-1__span {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.section-2 {
+    color: #FFFFFF;
+    background: #090909;
+    padding: 100px 0;
+}
+
+.section-2__box-h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.section-2__h1 {
+    font-size: 40px;
+    text-align: center;
+    line-height: 60px;
+    margin-bottom: 60px;
+}
+
+.section-2__box-form-left {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.section-2__box-form-right {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.section-2__span {
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.section-2__form-input {
+    font-size: 16px;
+    color: #FFFFFF;
+    width: 100%;
+    outline: none;
+    background: #090909;
+    border: 2px solid #dadada;
+    border-radius: 5px;
+    padding: 5px 0 5px 5px;
+    margin: 20px 0;
+    transition: all 0.5s ease-in;
+}
+
+.section-2__form-input:focus {
+    border: 2px solid #4F00A4;
+}
+
+.section-2__select-option {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+    appearance: none;
+    outline: none;
+    background: #090909;
+    border: 2px solid #dadada;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 20px 0;
+    transition: all 0.5s ease-in;
+}
+
+.section-2__select-option:focus {
+    border: 2px solid #4F00A4;
+}
+
+.section-2__ul-li {
+    color: #dadada;
+    list-style-type: none;
+    margin-left: 5px;
+    margin-bottom: 15px; 
+}
+
+.section-2__form-textarea {
+    font-size: 16px;
+    color: #FFFFFF;
+    width: 100%;
+    outline: none;
+    resize: none;
+    background: #090909;
+    border: 2px solid #dadada;
+    border-radius: 5px;
+    padding-bottom: 40px;
+    margin: 20px 0;
+    transition: all 0.5s ease-in;
+}
+
+.section-2__form-textarea:focus {
+    border: 2px solid #4F00A4;
+}
+
+.section-2__box-select {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.section-2__h2 {
+    font-size: 27px;
+    margin: 40px 0 30px 0;
+}
+
+.section-2__p {
+    display: flex;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.section-2__input {
+    zoom: 1.5;
+    margin-right: 10px;
+}
+
+.section-2__box-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.section-2__btn {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #4F00A4;
+    border: 1px solid #4F00A4;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0 #3C0CA3;
+    padding: 10px;
+}
+
+.section-2__btn:hover {
+    background: #3C0CA3;
+    border: 1px solid #3C0CA3;
+    box-shadow: 5px 5px 0 #4F00A4;
+    padding: 10px 15px;
+    transition: 0.5s;
+}
+
+.footer__div-1 {
+    background: #3C0CA3;
+    padding: 20px 10px;
+}
+
+.footer__personal-data {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.footer__location,
+.footer__number, 
+.footer__email {
+    display: flex;
+    align-items: flex-start;
+}
+
+.footer__span {
+    padding-top: 7px;
+    margin-left: 15px;
+}
+
+.footer__span--moved {
+    margin-right: 25px;
+}
+
+.footer__data {
+    display: flex;
+}
+
+.footer__div-2 {
+    background: #2A1791;
+    padding: 60px 10px;
+}
+
+.footer__text {
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+
+.footer__last-word {
+    color: #dadada;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 60px;
+}
